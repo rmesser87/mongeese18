@@ -1,10 +1,14 @@
-!DOCTYPE html>
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
     <title>Mongo Homework</title>
     <style>
-      body { background-color: lightgreen }
+      body {
+    background: url(/images/houston.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
       #wrapper {
         width: 960px;
         margin-left: auto;
@@ -17,6 +21,9 @@
         width: 60%;
         height: 700px;
         background-color: white;
+        border: 3px solid black;
+        opacity: 0.75;
+        padding: 15px;
       }
       #notes {
         float: right;
@@ -26,6 +33,7 @@
         display: block;
         width: 100%;
         background-color: #FCF5C7;
+        opacity: 0.75;
       }
       input {
         height: 36px;
@@ -34,7 +42,17 @@
       textarea {
         height: 200px;
         font-size: 18px;
+        
       }
+      p {
+        border: 1px solid black;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      h1,h2 {
+        text-shadow: 2px 2px white;
+      }
+      
     </style>
   </head>
   <body>
